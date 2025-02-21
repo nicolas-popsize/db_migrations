@@ -1,0 +1,579 @@
+﻿type_label_long,type_label_short,priority
+Long-sleeve T-shirt,T-shirt,1
+Long-sleeve T-shirt,Tops,2
+Long-sleeve T-shirt,Polo,3
+Short-sleeve T-shirt,T-shirt,1
+Short-sleeve T-shirt,Tops,2
+Short-sleeve T-shirt,Polo,3
+Long-sleeve shirt,Shirt,1
+Long-sleeve shirt,Vest,2
+Long-sleeve shirt,Blazer,3
+Short-sleeve shirt,Shirt,1
+Short-sleeve shirt,Vest,2
+Short-sleeve shirt,Blazer,3
+Long-sleeve Polo,Polo,1
+Long-sleeve Polo,Shirt,2
+Long-sleeve Polo,T-shirt,3
+Long-sleeve Polo,Tops,4
+Short-sleeve Polo,Polo,1
+Short-sleeve Polo,T-shirt,2
+Short-sleeve Polo,Shirt,3
+Short-sleeve Polo,Tops,4
+Long-sleeve Crop-top,Tops,1
+Long-sleeve Crop-top,T-shirt,2
+Long-sleeve Crop-top,Polo,3
+Short-sleeve Crop-top,Tops,1
+Short-sleeve Crop-top,T-shirt,2
+Short-sleeve Crop-top,Polo,3
+Sweater - Other,Sweater,1
+Sweater - Other,Sweatshirt,2
+Sweater - Other,Hoodie,3
+Sweater - Other,Tops,4
+Sweater - Round neck,Sweater,1
+Sweater - Round neck,Sweatshirt,2
+Sweater - Round neck,Hoodie,3
+Sweater - Round neck,Tops,4
+Sweater - Shawl neck,Sweater,1
+Sweater - Shawl neck,Sweatshirt,2
+Sweater - Shawl neck,Hoodie,3
+Sweater - Shawl neck,Tops,4
+Sweater - Sleeveless,Sweater,1
+Sweater - Sleeveless,Sweatshirt,2
+Sweater - Sleeveless,Hoodie,3
+Sweater - Turtle neck,Sweater,1
+Sweater - Turtle neck,Sweatshirt,2
+Sweater - Turtle neck,Hoodie,3
+Sweater - Turtle neck,Tops,4
+Sweater - V-neck,Sweater,1
+Sweater - V-neck,Sweatshirt,2
+Sweater - V-neck,Hoodie,3
+Sweater - V-neck,Tops,4
+Cardigan,Vest,1
+Cardigan,Blazer,2
+Cardigan,Raincoat,3
+Vest,Vest,1
+Vest,Blazer,2
+Vest,Suit,3
+Vest,Shirt,4
+Vest,Coat,5
+Vest,Jacket,6
+Vest,Outerwear,7
+Hoodie - No zip,Hoodie,1
+Hoodie - No zip,Sweater,2
+Hoodie - No zip,Tracksuit,3
+Hoodie - No zip,Sweatshirt,4
+Hoodie - No zip,Underwear (full body),5
+Hoodie - No zip,Tops,6
+Hoodie - Zipped,Hoodie,1
+Hoodie - Zipped,Sweater,2
+Hoodie - Zipped,Tracksuit,3
+Hoodie - Zipped,Sweatshirt,4
+Hoodie - Zipped,Underwear (full body),5
+Hoodie - Zipped,Tops,6
+Jumper - No zip,Sweatshirt,1
+Jumper - No zip,Hoodie,2
+Jumper - No zip,Tracksuit,3
+Jumper - No zip,Sweater,4
+Jumper - No zip,Underwear (full body),5
+Jumper - No zip,Tops,6
+Jumper - Zipped,Sweatshirt,1
+Jumper - Zipped,Hoodie,2
+Jumper - Zipped,Tracksuit,3
+Jumper - Zipped,Sweater,4
+Jumper - Zipped,Underwear (full body),5
+Jumper - Zipped,Tops,6
+Bra - Underwired,Bra,1
+Bra - Underwired,Sports bra,2
+Bra - Underwired,Underwear (full body),3
+Bra - Underwired,Bodies,4
+Bra - Push-up,Bra,1
+Bra - Push-up,Sports bra,2
+Bra - Push-up,Underwear (full body),3
+Bra - Push-up,Bodies,4
+Bra - Other,Bra,1
+Bra - Other,Sports bra,2
+Bra - Other,Underwear (full body),3
+Bra - Other,Bodies,4
+Other - Pyjama,Pyjama,1
+Other - Pyjama,Underwear (bottom),2
+Other - Underwear,Underwear (full body),1
+Other - Underwear,Bodies,2
+Other - Underwear,Underwear (bottom),3
+Top - Other,Tops,1
+Top - Other,T-shirt,2
+Top - Other,Shirt,3
+Dufflecoat,Coat,1
+Dufflecoat,Raincoat,2
+Dufflecoat,Down jacket,3
+Dufflecoat,Outerwear,4
+Dufflecoat,Jacket,5
+Long coat,Coat,1
+Long coat,Raincoat,2
+Long coat,Outerwear,3
+Long coat,Down jacket,4
+Long coat,Jacket,5
+Parka,Coat,1
+Parka,Raincoat,2
+Parka,Outerwear,3
+Parka,Jacket,4
+Parka,Down jacket,5
+Peacoat,Coat,1
+Peacoat,Raincoat,2
+Peacoat,Down jacket,3
+Peacoat,Outerwear,4
+Peacoat,Jacket,5
+Raincoat,Raincoat,1
+Raincoat,Coat,2
+Raincoat,Down jacket,3
+Raincoat,Outerwear,4
+Raincoat,Jacket,5
+Trenchcoat,Raincoat,1
+Trenchcoat,Coat,2
+Trenchcoat,Down jacket,3
+Trenchcoat,Outerwear,4
+Trenchcoat,Jacket,5
+Blazer,Blazer,1
+Blazer,Vest,2
+Blazer,Suit,3
+Blazer,Shirt,4
+Blazer,Coat,5
+Blazer,Jacket,6
+Blazer,Outerwear,7
+Biker jacket,Jacket,1
+Biker jacket,Outerwear,2
+Biker jacket,Raincoat,3
+Biker jacket,Down jacket,4
+Biker jacket,Coat,5
+Bomber jacket,Jacket,1
+Bomber jacket,Outerwear,2
+Bomber jacket,Raincoat,3
+Bomber jacket,Down jacket,4
+Bomber jacket,Coat,5
+Denim jacket,Jacket,1
+Denim jacket,Outerwear,2
+Denim jacket,Raincoat,3
+Denim jacket,Down jacket,4
+Denim jacket,Coat,5
+Field jacket,Jacket,1
+Field jacket,Outerwear,2
+Field jacket,Raincoat,3
+Field jacket,Down jacket,4
+Field jacket,Coat,5
+Fleece jacket,Jacket,1
+Fleece jacket,Outerwear,2
+Fleece jacket,Raincoat,3
+Fleece jacket,Down jacket,4
+Fleece jacket,Coat,5
+Harrington jacket,Jacket,1
+Harrington jacket,Outerwear,2
+Harrington jacket,Raincoat,3
+Harrington jacket,Down jacket,4
+Harrington jacket,Coat,5
+Puffer jacket,Down jacket,1
+Puffer jacket,Jacket,2
+Puffer jacket,Outerwear,3
+Puffer jacket,Raincoat,4
+Puffer jacket,Coat,5
+Quilted jacket,Down jacket,1
+Quilted jacket,Jacket,2
+Quilted jacket,Outerwear,3
+Quilted jacket,Raincoat,4
+Quilted jacket,Coat,5
+Shackets,Blazer,1
+Shackets,Shirt,2
+Shackets,Suit,3
+Shackets,Vest,4
+Varsity jacket,Down jacket,1
+Varsity jacket,Jacket,2
+Varsity jacket,Outerwear,3
+Varsity jacket,Raincoat,4
+Varsity jacket,Coat,5
+Windbreaker,Down jacket,1
+Windbreaker,Jacket,2
+Windbreaker,Outerwear,3
+Windbreaker,Raincoat,4
+Windbreaker,Coat,5
+Long-sleeve T-shirt (sportswear),T-shirt,1
+Long-sleeve T-shirt (sportswear),Tops,2
+Long-sleeve T-shirt (sportswear),Polo,3
+Short-sleeve T-shirt (sportswear),T-shirt,1
+Short-sleeve T-shirt (sportswear),Tops,2
+Short-sleeve T-shirt (sportswear),Polo,3
+Long-sleeve shirt (sportswear),Vest,1
+Long-sleeve shirt (sportswear),Shirt,2
+Long-sleeve shirt (sportswear),Blazer,3
+Short-sleeve shirt (sportswear),Vest,1
+Short-sleeve shirt (sportswear),Shirt,2
+Long-sleeve Polo (sportswear),Polo,1
+Long-sleeve Polo (sportswear),Shirt,2
+Long-sleeve Polo (sportswear),T-shirt,3
+Long-sleeve Polo (sportswear),Tops,4
+Short-sleeve Polo (sportswear),Polo,1
+Short-sleeve Polo (sportswear),T-shirt,2
+Short-sleeve Polo (sportswear),Tops,3
+Short-sleeve Polo (sportswear),Shirt,4
+Long-sleeve Crop-top (sportswear),Polo,1
+Long-sleeve Crop-top (sportswear),T-shirt,2
+Long-sleeve Crop-top (sportswear),Tops,3
+Short-sleeve Crop-top (sportswear),Polo,1
+Short-sleeve Crop-top (sportswear),T-shirt,2
+Short-sleeve Crop-top (sportswear),Tops,3
+Hoodie - No zip (sportswear),Hoodie,1
+Hoodie - No zip (sportswear),Sweater,2
+Hoodie - No zip (sportswear),Tracksuit,3
+Hoodie - No zip (sportswear),Sweatshirt,4
+Hoodie - No zip (sportswear),Underwear (full body),5
+Hoodie - No zip (sportswear),Tops,6
+Hoodie - Zipped (sportswear),Hoodie,1
+Hoodie - Zipped (sportswear),Sweater,2
+Hoodie - Zipped (sportswear),Tracksuit,3
+Hoodie - Zipped (sportswear),Sweatshirt,4
+Hoodie - Zipped (sportswear),Underwear (full body),5
+Hoodie - Zipped (sportswear),Tops,6
+Jumper - No zip (sportswear),Sweatshirt,1
+Jumper - No zip (sportswear),Tracksuit,2
+Jumper - No zip (sportswear),Hoodie,3
+Jumper - No zip (sportswear),Sweater,4
+Jumper - No zip (sportswear),Underwear (full body),5
+Jumper - No zip (sportswear),Tops,6
+Jumper - Zipped (sportswear),Sweatshirt,1
+Jumper - Zipped (sportswear),Tracksuit,2
+Jumper - Zipped (sportswear),Hoodie,3
+Jumper - Zipped (sportswear),Sweater,4
+Jumper - Zipped (sportswear),Underwear (full body),5
+Jumper - Zipped (sportswear),Tops,6
+Outerwear - Other (sportswear),Outerwear,1
+Outerwear - Other (sportswear),Down jacket,2
+Outerwear - Other (sportswear),Jacket,3
+Outerwear - Other (sportswear),Raincoat,4
+Outerwear - Other (sportswear),Coat,5
+Ski & Snowboard vest,Down jacket,1
+Ski & Snowboard vest,Vest,2
+Ski & Snowboard vest,Blazer,3
+Ski & Snowboard vest,Jacket,4
+Ski & Snowboard vest,Outerwear,5
+Ski & Snowboard vest,Raincoat,6
+Ski & Snowboard vest,Coat,7
+Trekking vest,Down jacket,1
+Trekking vest,Vest,2
+Trekking vest,Blazer,3
+Trekking vest,Jacket,4
+Trekking vest,Outerwear,5
+Trekking vest,Raincoat,6
+Trekking vest,Coat,7
+Bathsuit - Top,Swimsuit top,1
+Bathsuit - Top,Swimwear,2
+Bathsuit - Bottom,Wetsuit,1
+Bathsuit - Bottom,Swimwear,2
+Bathsuit - Bottom,Shorts,3
+Bathsuit - Full Body,Wetsuit,1
+Bathsuit - Full Body,Swimsuit top,2
+Bathsuit - Full Body,Bathrobes,3
+Bathsuit - Full Body,Swimwear,4
+Bathsuit - Full Body,Bodies,5
+Sportswear - Bralette,Sports bra,1
+Sportswear - Bralette,Bra,2
+Sportswear - Bralette,Bodies,3
+Sportswear - Other,Tracksuit,1
+Sportswear - Other,Leggings,2
+Sportswear - Other,Sports pants,3
+Sportswear - Other,Pants,4
+Sportswear - Other,Underwear (full body),5
+Sportswear - Other,Swimwear,6
+Joggers,Sports pants,1
+Joggers,Leggings,2
+Joggers,Tracksuit,3
+Joggers,Pants,4
+Joggers,Underwear (full body),5
+Leggings,Leggings,1
+Leggings,Tracksuit,2
+Leggings,Tights and stockings,3
+Leggings,Sports pants,4
+Leggings,Underwear (full body),5
+Leggings,Underwear (bottom),6
+Sportswear shorts,Tracksuit,1
+Sportswear shorts,Sports pants,2
+Sportswear shorts,Leggings,3
+Sportswear shorts,Shorts,4
+Sportswear shorts,Pants,5
+Sportswear shorts,Swimwear,6
+Sportswear shorts,Underwear (full body),7
+Chino,Pants,1
+Chino,Classic pants,2
+Chino,Jeans,3
+Croped pants,Pants,1
+Croped pants,Sports pants,2
+Croped pants,Leggings,3
+Jeans,Jeans,1
+Jeans,Pants,2
+Jeans,Classic pants,3
+Tailored pants,Classic pants,1
+Tailored pants,Suit,2
+Tailored pants,Jeans,3
+Tailored pants,Pants,4
+Jeans & Pants - Other,Jeans,1
+Jeans & Pants - Other,Pants,2
+Jeans & Pants - Other,Classic pants,3
+Regular shorts,Shorts,1
+Regular shorts,Swimwear,2
+High-waisted shorts,Shorts,1
+High-waisted shorts,Swimwear,2
+Low-waisted shorts,Shorts,1
+Low-waisted shorts,Swimwear,2
+Mini shorts,Shorts,1
+Mini shorts,Swimwear,2
+Mini skirt,Skirt,1
+Mini skirt,Dress,2
+Mini skirt,Tunic,3
+Mini skirt,Nightgowns,4
+Midi skirt,Skirt,1
+Midi skirt,Dress,2
+Midi skirt,Tunic,3
+Midi skirt,Nightgowns,4
+Maxi skirt,Skirt,1
+Maxi skirt,Dress,2
+Maxi skirt,Tunic,3
+Maxi skirt,Nightgowns,4
+Skater skirt,Skirt,1
+Skater skirt,Dress,2
+Skater skirt,Tunic,3
+Skater skirt,Nightgowns,4
+A-line skirt,Skirt,1
+A-line skirt,Dress,2
+A-line skirt,Tunic,3
+A-line skirt,Nightgowns,4
+High-waisted skirt,Skirt,1
+High-waisted skirt,Dress,2
+High-waisted skirt,Tunic,3
+High-waisted skirt,Nightgowns,4
+Skirt - Other,Skirt,1
+Skirt - Other,Dress,2
+Skirt - Other,Tunic,3
+Skirt - Other,Nightgowns,4
+Pyjama - Lace shorts,Pyjama,1
+Pyjama - Lace shorts,Tights and stockings,2
+Pyjama - Lace shorts,Nightgowns,3
+Pyjama - Lace shorts,Shorts,4
+Pyjama - Lace shorts,Underwear (bottom),5
+Pyjama - Nightwear,Nightgowns,1
+Pyjama - Nightwear,Pyjama,2
+Pyjama - Nightwear,Tights and stockings,3
+Pyjama - Nightwear,Underwear (bottom),4
+Pyjama - Pants,Sports pants,1
+Pyjama - Pants,Pyjama,2
+Pyjama - Pants,Leggings,3
+Pyjama - Pants,Nightgowns,4
+Pyjama - Pants,Pants,5
+Pyjama - Pants,Underwear (bottom),6
+Pyjama - Shorts,Pyjama,1
+Pyjama - Shorts,Shorts,2
+Pyjama - Shorts,Nightgowns,3
+Pyjama - Shorts,Underwear (bottom),4
+Underwear - Boxer (fit),Underwear (bottom),1
+Underwear - Boxer (fit),Underwear (full body),2
+Underwear - Boxer (fit),Bodies,3
+Underwear - Panties,Bodies,1
+Underwear - Panties,Underwear (bottom),2
+Underwear - Panties,Underwear (full body),3
+Underwear - Shapewear,Bodies,1
+Underwear - Shapewear,Nightgowns,2
+Underwear - Shapewear,Underwear (bottom),3
+Underwear - Shapewear,Underwear (full body),4
+Underwear - Underpants (large),Underwear (bottom),1
+Underwear - Underpants (large),Bodies,2
+Underwear - Underpants (large),Underwear (full body),3
+Socks,Socks,1
+Socks,Shoes,2
+Stockings,Tights and stockings,1
+Tights,Tights and stockings,1
+Bottom - Other,Tracksuit,1
+Bottom - Other,Underwear (bottom),2
+Formal dress,Dress,1
+Formal dress,Tunic,2
+Formal dress,Skirt,3
+Formal dress,Nightgowns,4
+Long dress,Dress,1
+Long dress,Tunic,2
+Long dress,Skirt,3
+Long dress,Nightgowns,4
+Mini-dress,Dress,1
+Mini-dress,Tunic,2
+Mini-dress,Skirt,3
+Mini-dress,Nightgowns,4
+Midi-dress,Dress,1
+Midi-dress,Tunic,2
+Midi-dress,Skirt,3
+Midi-dress,Nightgowns,4
+Tunic,Tunic,1
+Tunic,Bathrobes,2
+Dress - Other,Dress,1
+Dress - Other,Tunic,2
+Dress - Other,Skirt,3
+Dress - Other,Nightgowns,4
+Jumpsuit,Overall,1
+Jumpsuit,Jeans,2
+Jumpsuit,Pants,3
+Playsuits,Overall,1
+Playsuits,Jeans,2
+Playsuits,Pants,3
+Full Body - Pyjama,Nightgowns,1
+Full Body - Pyjama,Pyjama,2
+Full Body - Pyjama,Underwear (bottom),3
+Full Body - Bathrobes,Bathrobes,1
+Full Body - Bathrobes,Overall,2
+Full Body - Bathrobes,Swimwear,3
+Full Body - Bathrobes,Nightgowns,4
+Full Body - Bathrobes,Underwear (bottom),5
+Suit,Suit,1
+Suit,Blazer,2
+Suit,Bathrobes,3
+Tuxedo,Suit,1
+Tuxedo,Bathrobes,2
+Full Body - Other,Bathrobes,1
+Full Body - Other,Overall,2
+Full Body - Other,Dress,3
+Bikini,Swimwear,1
+Bikini,Swimsuit top,2
+Cover-ups & Sarongs,Tunic,1
+Cover-ups & Sarongs,Swimwear,2
+Cover-ups & Sarongs,Bathrobes,3
+Swimwear - One-piece,Swimwear,1
+Swimwear - One-piece,Wetsuit,2
+Swimwear - One-piece,Swimsuit top,3
+Swimwear - One-piece,Bathrobes,4
+Underwear - Full body,Underwear (full body),1
+Underwear - Full body,Nightgowns,2
+Underwear - Full body,Bodies,3
+Underwear - Full body,Underwear (bottom),4
+Ankle boots,Shoes,1
+Ankle boots,Knee-highs,2
+Chelsea & slip-on boots,Shoes,1
+Chelsea & slip-on boots,Knee-highs,2
+Desert & lace-up boots,Shoes,1
+Desert & lace-up boots,Knee-highs,2
+Knee-high boots,Knee-highs,1
+Knee-high boots,Shoes,2
+Mid-calf boots,Shoes,1
+Mid-calf boots,Knee-highs,2
+Over-the-knee boots,Shoes,1
+Over-the-knee boots,Knee-highs,2
+Snow boots,Shoes,1
+Snow boots,Knee-highs,2
+Wellington boots,Shoes,1
+Wellington boots,Knee-highs,2
+Work boots,Shoes,1
+Work boots,Knee-highs,2
+Ballerinas,Shoes,1
+Ballerinas,Knee-highs,2
+Boat shoes,Shoes,1
+Boat shoes,Knee-highs,2
+Espadrilles,Shoes,1
+Espadrilles,Knee-highs,2
+Lace-up shoes,Shoes,1
+Lace-up shoes,Knee-highs,2
+Mary Janes,Shoes,1
+Mary Janes,Knee-highs,2
+Trainers,Shoes,1
+Trainers,Knee-highs,2
+Sneakers,Shoes,1
+Sneakers,Knee-highs,2
+Derby shoes,Shoes,1
+Derby shoes,Knee-highs,2
+Monk strap shoes,Shoes,1
+Monk strap shoes,Knee-highs,2
+Oxford shoes,Shoes,1
+Oxford shoes,Knee-highs,2
+Slip-on shoes,Shoes,1
+Slip-on shoes,Knee-highs,2
+Court shoes,Shoes,1
+Court shoes,Knee-highs,2
+High-heeled sandals,Shoes,1
+High-heeled sandals,Knee-highs,2
+Basketball shoes,Shoes,1
+Basketball shoes,Knee-highs,2
+Climbing & bouldering shoes,Shoes,1
+Climbing & bouldering shoes,Knee-highs,2
+Cycling shoes,Shoes,1
+Cycling shoes,Knee-highs,2
+Dance shoes,Shoes,1
+Dance shoes,Knee-highs,2
+Football boots,Shoes,1
+Football boots,Knee-highs,2
+Golf shoes,Shoes,1
+Golf shoes,Knee-highs,2
+Handball shoes,Shoes,1
+Handball shoes,Knee-highs,2
+Hiking boots & shoes,Shoes,1
+Hiking boots & shoes,Knee-highs,2
+Ice skates,Shoes,1
+Ice skates,Knee-highs,2
+Indoor football shoes,Shoes,1
+Indoor football shoes,Knee-highs,2
+Indoor training shoes,Shoes,1
+Indoor training shoes,Knee-highs,2
+Motorcycle boots,Shoes,1
+Motorcycle boots,Knee-highs,2
+Roller skates & inline skates,Shoes,1
+Roller skates & inline skates,Knee-highs,2
+Running shoes,Shoes,1
+Running shoes,Knee-highs,2
+Ski boots,Shoes,1
+Ski boots,Knee-highs,2
+Snowboard boots,Shoes,1
+Snowboard boots,Knee-highs,2
+Swimming & water shoes,Shoes,1
+Swimming & water shoes,Knee-highs,2
+Tennis shoes,Shoes,1
+Tennis shoes,Knee-highs,2
+Sports shoes - Other,Shoes,1
+Sports shoes - Other,Knee-highs,2
+Clogs & mules,Shoes,1
+Clogs & mules,Knee-highs,2
+Flip-flops,Shoes,1
+Flip-flops,Knee-highs,2
+Sandals,Shoes,1
+Sandals,Knee-highs,2
+Slides,Shoes,1
+Slides,Knee-highs,2
+Slippers,Shoes,1
+Slippers,Knee-highs,2
+Shoes - Other,Socks,1
+Shoes - Other,Shoes,2
+Shoes - Other,Knee-highs,3
+Berets,Hat,1
+Berets,Helmet,2
+Caps,Hat,1
+Caps,Helmet,2
+Hats,Hat,1
+Hats,Helmet,2
+Headbands,Hat,1
+Headbands,Helmet,2
+Winter hats,Hat,1
+Winter hats,Helmet,2
+Hats & Caps - Other,Helmet,1
+Hats & Caps - Other,Hat,2
+Anklets,Accessories,1
+Bracelets,Accessories,1
+Brooches,Accessories,1
+Cufflinks,Accessories,1
+Earrings,Accessories,1
+Necklace,Accessories,1
+Pendant,Accessories,1
+Rings,Accessories,1
+Head scarves,Scarves and shawls,1
+Head scarves,Hat,2
+Head scarves,Helmet,3
+Knit scarves,Scarves and shawls,1
+Shawls,Scarves and shawls,1
+Belts,Belt,1
+Gloves,Gloves,1
+Accessories - Other,Socks,1
+Accessories - Other,Scarves and shawls,2
+Accessories - Other,Accessories,3
+Accessories - Back protection,Back protection,1
+Bandages - Arm,Bandages for the arm,1
+Bandages - Knee,Bandages for the knee,1
+Bandages - Leg,Bandages for the leg,1
+Bandages - Shoulder,Bandages for the shoulder,1
+Helmet,Helmet,1
+Helmet,Hat,2
