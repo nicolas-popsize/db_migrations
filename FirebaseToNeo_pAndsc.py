@@ -1,7 +1,7 @@
 import json
-from FirebaseToNeo_products import create_product_master, create_product_translation
-from FirebaseToNeo_sizecharts import create_size_chart
-from utils import load_db_connections
+from .FirebaseToNeo_products import create_product_master, create_product_translation
+from .FirebaseToNeo_sizecharts import create_size_chart
+from .utils import load_db_connections
 
 db, driver = load_db_connections()
 

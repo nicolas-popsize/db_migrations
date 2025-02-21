@@ -1,10 +1,9 @@
 # This script adds priority relationships between type_label_long Type node and SizeCharts
 
 import pandas as pd
-from neo4j import GraphDatabase
 from neo4j.exceptions import ServiceUnavailable
 
-from utils import load_db_connections
+from .utils import load_db_connections
 
 _, driver = load_db_connections()
 

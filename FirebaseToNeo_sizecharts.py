@@ -1,6 +1,6 @@
 import json
 
-from utils import load_db_connections
+from .utils import load_db_connections
 
 db, driver = load_db_connections()
 def create_size_chart(tx, size_chart):
