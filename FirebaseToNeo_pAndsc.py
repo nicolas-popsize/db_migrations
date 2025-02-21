@@ -1,67 +1,9 @@
-from neo4j import GraphDatabase
-import firebase_admin
-from firebase_admin import credentials, firestore
 import json
-from dotenv import load_dotenv
-import os
+from FirebaseToNeo_products import create_product_master, create_product_translation
+from FirebaseToNeo_sizecharts import create_size_chart
+from utils import load_db_connections
 
-# Load environment variables from .env file
-load_dotenv()
-
-
-# ✅ Initialize Firebase
-cred = credentials.Certificate("popsizedb-firebase-adminsdk-wwbwa-7982b6bf06.json")
-firebase_admin.initialize_app(cred)
-db = firestore.client()
-
-# ✅ Neo4j Connection
-URI = os.getenv("NEO4J_URI")
-AUTH_USER = os.getenv("NEO4J_USERNAME")
-AUTH_PASS = os.getenv("NEO4J_PASSWORD")
-AUTH = (AUTH_USER, AUTH_PASS)
-
-# ✅ Initialize Neo4j driver
-driver = GraphDatabase.driver(URI, auth=AUTH)
-
-
-def create_product_master(tx, product_master):
-    """
-    Creates a ProductMaster node in Neo4j.
-    """
-    query = """
-        CREATE (pm:ProductMaster {
-            product_id: $product_id,
-            product_images: $product_images,
-            aggregateRating: $aggregateRating,
-            product_current_price: $product_current_price,
-            product_release_date: $product_release_date,
-            product_sku: $product_sku,
-            currency_value: $currency_value,
-            product_original_price: $product_original_price,
-            type_label_long: $type_label_long,
-            brand_label: $brand_label,
-            size_chart_master_id: $size_chart_master_id
-        })
-    """
-    tx.run(query, **product_master)
-
-
-def create_product_translation(tx, product_translation):
-    """
-    Creates a ProductTranslation node in Neo4j and links it to ProductMaster.
-    """
-    query = """
-        MATCH (pm:ProductMaster {product_id: $product_id})
-        CREATE (pt:ProductTranslation {
-            product_label: $product_label,
-            product_url: $product_url,
-            product_material: $product_material,
-            product_features: $product_features,
-            product_description: $product_description
-        })
-        MERGE (pm)-[:HAS_TRANSLATION]->(pt)
-    """
-    tx.run(query, **product_translation)
+db, driver = load_db_connections()
 
 
 def create_size(tx, product_id, size_label):
@@ -74,19 +16,6 @@ def create_size(tx, product_id, size_label):
         MERGE (pm)-[:HAS_SIZE]->(s)
     """
     tx.run(query, product_id=product_id, size_label=size_label)
-
-
-def create_size_chart(tx, size_chart):
-    """
-    Creates a SizeChart node with dynamic properties.
-    """
-    property_keys = ", ".join([f"{key}: ${key}" for key in size_chart.keys()])
-    query = f"""
-        CREATE (sc:SizeChart {{
-            {property_keys}
-        }})
-    """
-    tx.run(query, **size_chart)
 
 
 def link_size_to_size_chart(tx, size_label, size_chart_id):

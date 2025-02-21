@@ -1,27 +1,15 @@
 # This script adds priority relationships between type_label_long Type node and SizeCharts
 
-import os
-from dotenv import load_dotenv
 import pandas as pd
 from neo4j import GraphDatabase
 from neo4j.exceptions import ServiceUnavailable
 
+from utils import load_db_connections
 
-# Load environment variables from .env file
-load_dotenv()
-
-
-# ✅ Neo4j Connection
-URI = os.getenv("NEO4J_URI")
-AUTH_USER = os.getenv("NEO4J_USERNAME")
-AUTH_PASS = os.getenv("NEO4J_PASSWORD")
-AUTH = (AUTH_USER, AUTH_PASS)
+_, driver = load_db_connections()
 
 # CSV File path
 file_path = "sizechart_typelabellong_update4.csv"  # Update this to your CSV file path
-
-# Connect to the Neo4j database
-driver = GraphDatabase.driver(URI, auth=AUTH)
 
 
 def create_relationships(tx, type_label_long, type_label_short, priority):

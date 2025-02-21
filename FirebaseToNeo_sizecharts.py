@@ -1,41 +1,18 @@
-import os
-from dotenv import load_dotenv
-from neo4j import GraphDatabase
-import firebase_admin
-from firebase_admin import credentials, firestore
 import json
 
-# Load environment variables from .env file
-load_dotenv()
+from utils import load_db_connections
 
-
-# ✅ Initialize Firebase
-cred = credentials.Certificate("popsizedb-firebase-adminsdk-wwbwa-7982b6bf06.json")
-firebase_admin.initialize_app(cred)
-db = firestore.client()
-
-# ✅ Neo4j Connection
-URI = os.getenv("NEO4J_URI")
-AUTH_USER = os.getenv("NEO4J_USERNAME")
-AUTH_PASS = os.getenv("NEO4J_PASSWORD")
-AUTH = (AUTH_USER, AUTH_PASS)
-
-# ✅ Initialize Neo4j driver
-driver = GraphDatabase.driver(URI, auth=AUTH)
-
-
+db, driver = load_db_connections()
 def create_size_chart(tx, size_chart):
     """
-    Creates a SizeChart node in Neo4j with dynamic properties based on available measurements.
+    Creates a SizeChart node with dynamic properties.
     """
     property_keys = ", ".join([f"{key}: ${key}" for key in size_chart.keys()])
-
     query = f"""
         CREATE (sc:SizeChart {{
             {property_keys}
         }})
     """
-
     tx.run(query, **size_chart)
 
 
